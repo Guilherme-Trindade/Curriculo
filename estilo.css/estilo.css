@@ -1,0 +1,144 @@
+.plano-menu{
+    height: 100vh;
+}
+.foto-perfil {
+    border: 5px solid #ADFF2F;
+}
+ul {
+    list-style: none;
+}
+
+.texto-verde{
+text-decoration: none;
+color: white;
+}
+.texto-verde:hover {
+    color: #ADFF2F !important;
+    text-decoration: none;
+}
+h5{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.nome-destaque{
+    font-size: 4em !important;
+}
+.tamanho-subtexto {
+    padding-right: 15%;
+    font-size: 24px;
+}
+.fa-linkedin-in{
+    font-size: 32px;
+    border: 12px solid #262626;
+    background-color: #262626;
+    border-radius: 100%;
+}
+.fa-linkedin-in:hover {
+background-color: DodgerBlue;
+border: 12px solid DodgerBlue;
+font-size: 40px;
+border-radius: 100%
+}
+
+.fa-github{
+    font-size: 32px;
+    border: 12px solid #262626;
+    background-color: #262626;
+    border-radius: 100%;
+}
+.fa-github:hover {
+background-color: orangered;
+border: 12px solid orangered;
+font-size: 40px;
+border-radius: 100%
+}
+.fa-instagram {
+    font-size: 32px;
+    border: 12px solid #262626;
+    background-color: #262626;
+    border-radius: 100%;
+}
+.fa-instagram:hover {
+background: linear-gradient( rgba(63,94,251,1) , rgba(252,70,107,1) );
+border: 12px solid transparent;
+font-size: 40px;
+border-radius: 100%
+}
+.fa-facebook-f {
+    font-size: 32px;
+    border: 12px solid #262626;
+    background-color: #262626;
+    border-radius: 100%;
+}
+.fa-facebook-f:hover {
+background-color: darkblue;
+border: 12px solid darkblue;
+font-size: 40px;
+border-radius: 100%
+}
+.divisor{
+    margin-top: 100px;
+    height: 1px;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.divi-fixa {
+    overflow-y: scroll;
+    height: 100vh;
+}
+.absolute {
+    position: absolute;
+    right: 20%;
+    font-size: 18px;
+}
+
+.fa-html5 {
+    font-size: 5em;
+    padding-left: 10px;
+}
+
+.fa-html5:hover {
+    font-size: 5.53em;
+    color: orangered;
+    padding-left: 15px;
+}
+
+.fa-css3-alt {
+    font-size: 5em;
+    padding-left: 10px;
+}
+.fa-css3-alt:hover {
+    font-size: 5.53em;
+    color: blue;
+    padding-left: 15px;
+}
+
+.fa-js-square {
+    font-size: 5em;
+    padding-left: 10px;
+}
+.fa-js-square:hover {
+    font-size: 5.53em;
+    color: yellow;
+    padding-left: 15px;
+}
+
+.fa-salesforce {
+    font-size: 5em;
+    padding-left: 10px;
+}
+.fa-salesforce:hover {
+    font-size: 5.53em;
+    color: red;
+    padding-left: 15px;
+}
+
+.fa-laptop-code {
+    font-size: 5em;
+    padding-left: 10px;
+}
+.fa-laptop-code:hover {
+    font-size: 5.53em;
+    color: pink;
+    padding-left: 15px;
+}
