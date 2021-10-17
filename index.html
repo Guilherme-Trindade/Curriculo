@@ -16,7 +16,7 @@
   </head>
   <body>
     <section class="row">
-        <div class="col-3 plano-menu text-center pt-5 bg-dark">
+        <div class="col-3 plano-menu text-center pt-5 bg-dark menu-esquerdo-none">
             <div class="pb-5">
                 <img class="foto-perfil rounded-circle" src="estilo.css/IMG_1393.JPG" width="150px" height="150px">
             </div>
@@ -41,9 +41,39 @@
 
         </div>
 
-        <div class="col-9 pl-3 divi-fixa">
-            <div class="">
-                <h1 class=" pt-5 nome-destaque" style="font-family: 'Source Sans Pro', sans-serif !important;">Guilherme <span style="color: #ADFF2F;">Trindade</span></h1>
+        <div class="col-lg-9 col-md-12 col-sm-12 pl-3 divi-fixa" id="Direita-mobile">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light menu-mobile">
+                <div class="pb-2">
+                    <img class="foto-perfil rounded-circle" src="estilo.css/IMG_1393.JPG" width="60px" height="60px">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#Quem-sou-eu">Quem eu sou <span class="sr-only">(página atual)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Formacao-Educacional">Formação Educacional</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Habilidades">Habilidades</a>
+                    
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Gosto">Coisas que gosto de fazer</a>
+                    </li>
+                    
+                </div>
+            </nav>
+
+            <div id="#Quem-sou-eu" class="container" >
+                <h1  class=" pt-5 nome-destaque" style="font-family: 'Source Sans Pro', sans-serif !important;">Guilherme <span style="color: #ADFF2F;">Trindade</span></h1>
                 <h5>CENTRO - PINHEIROS/ES . (27) 9.9785-3165 <span class="text-secondary">Guilhermetrindade34@gmail.com</span></h5>
                 <p class="text-black-50 mt-5 tamanho-subtexto ml-3">
                     Minha escolha profissional vem do apoio dos meus familiares e do desejo de me tornar uma pessoa melhor,
@@ -54,11 +84,11 @@
                 </p>
 
                 <div class="mt-5 ">
-                    <a class=" mr-5 ml-5 text-white" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class=" mr-3 text-white" href=""><i class="fab fa-linkedin-in"></i></a>
 
-                    <a class=" mr-5 text-white" href=""><i class="fab fa-github"></i></a>
+                    <a class=" mr-3 text-white" href=""><i class="fab fa-github"></i></a>
                     
-                    <a class=" mr-5 text-white" href=""><i class="fab fa-instagram"></i></i></a>
+                    <a class=" mr-3 text-white" href=""><i class="fab fa-instagram"></i></i></a>
                     
                     <a class=" text-white" href=""><i class="fab fa-facebook-f"></i></a>
                 </div>
@@ -66,8 +96,8 @@
 
           <div class="divisor"></div>
 
-            <div class="position-relative">
-                <h3 class="pb-5">Educação</h3>
+            <div class="position-relative container" >
+                <h3 id="#Formacao-Educacional" class="pb-5">Educação</h3>
 
                 <div class="pb-5">
                     <h4><b>Ensino Medio Completo</b></h4>
@@ -94,8 +124,8 @@
 
             <div class="divisor"></div>
 
-            <div>
-                <h3>Habilidades</h3>
+            <div class="container">
+                <h3 id="#Habilidades">Habilidades</h3>
                 <br>
                 <br>
                 <br>
@@ -109,8 +139,56 @@
                     <i class="fas fa-laptop-code"></i>
                 </div>
 
+                <h5 class="text-secondary pt-5"><b>Habilidades</b> </h5>
+
+                <ul>
+                    <li class="pb-3 pt-3">
+                       <b><i class="fas fa-code pr-2"></i>Desenvolvimento front-end web</b> 
+                    </li>
+                    <li class="pb-3">
+                       <b><i class="fas fa-fill-drip pr-2"></i> Designer</b>
+                    </li>
+                    <li class="pb-3">
+                       <b><i class="fas fa-chalkboard-teacher pr-2"></i>Gestor de trafego</b> 
+                    </li>
+                    <li class="">
+                       <b><i class="fas fa-edit pr-2"></i>Copywriter</b> 
+                    </li>
+                </ul>
+
             </div>
-        
+
+            <div class="divisor"></div>
+
+            <div class="container" >
+                <h3 id="#Gosto">Interesses</h3>
+
+                <ul>
+                    <li>
+                        <i class="fas fa-podcast pr-2"></i>Ouvir podcastes variados
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-dumbbell pr-2"></i>Academia
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-headphones pr-2"></i></i>Audiobooks
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-book pr-2"></i>Leitura de livros de desenvolvimeto pessoal
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-laptop-house pr-2"></i>Trabalho
+                    </li>
+                    <br>
+                    <li>
+                        <i class="fas fa-edit pr-2"></i>Escrever
+                    </li>
+                </ul>
+            </div>        
         </div>
     </section>
 

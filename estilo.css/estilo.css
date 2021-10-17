@@ -142,3 +142,64 @@ border-radius: 100%
     color: pink;
     padding-left: 15px;
 }
+
+@media (max-width: 320px) {
+    .tamanho-subtexto {
+        padding-right: 15%;
+        font-size: 14px;
+    }
+    .menu-esquerdo-none {
+        display: none;
+    }
+    .menu-mobile{
+        display: block;}
+}
+
+@media (max-width: 375px) and (min-width: 321px){
+    .tamanho-subtexto {
+        padding-right: 15%;
+        font-size: 16px;
+    }
+    .menu-esquerdo-none {
+        display: none;
+    }
+    .menu-mobile{
+        display: block;}
+}
+
+@media (max-width: 576px) and (min-width:  376px) {
+    .menu-esquerdo-none {
+        display: none;
+    }
+    .menu-mobile{
+        display: block;}
+    
+    .tamanho-subtexto {
+            padding-right: 15%;
+            font-size: 18px;
+        }
+    
+}
+
+@media (max-width: 768px) and (min-width: 577px) {
+    .menu-esquerdo-none {
+        display: none;
+    }
+    .menu-mobile{
+        display: block;}
+}
+
+@media (max-width: 992px) and (min-width: 769px) {    
+    .menu-mobile{
+        display: none;}
+}
+
+@media (max-width: 1200px) and (min-width: 993px) {
+    .menu-mobile{
+        display: none;}
+}
+
+@media (min-width: 1201px) {
+    .menu-mobile{
+        display: none;}
+}
